@@ -1,0 +1,32 @@
+:root{
+    --primary-color:#e7b45a;
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --text-nhat:#707070;
+
+
+
+    --header-height:120px
+    --navbar-height:34px;
+    --header-with-search-height:calc(var(--header-height)- var(--navbar-height))
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%; /* 1 rem = 12 px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    line-height: var(--primary-color);
+}
+@font-face {
+    font-family: viettay;
+    src: url(/assets/font/DancingScript-VariableFont_wght.ttf);
+}
